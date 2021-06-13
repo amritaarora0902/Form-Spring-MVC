@@ -14,28 +14,31 @@
   </head>
   <body>
     <div class="container mt-5 ">
-    <form action="/processform" method="post">
+    <form action="processform" method="post">
     	<h3 class="text-center">Registration Form</h3>
     	
     	 <div class="form-group">
 	    <label for="exampleInputEmail1">Email address</label>
 	    <input 
 	    type="email" class="form-control" id="exampleInputEmail1" 
-	    aria-describedby="emailHelp" placeholder="Enter email">
+	    aria-describedby="emailHelp" placeholder="Enter email"
+	    name="email">
   		</div>
   		
   		 <div class="form-group">
 	    <label for="userName">Name</label>
 	    <input 
 	    type="text" class="form-control" id="userName" 
-	    aria-describedby="emailHelp" placeholder="Enter name">
+	    aria-describedby="emailHelp" placeholder="Enter name"
+	    name="name">
   		</div>
   		
   		<div class="form-group">
 	    <label for="userPassword">Password</label>
 	    <input 
 	    type="password" class="form-control" id="userPassword" 
-	    aria-describedby="emailHelp" placeholder="Enter password">
+	    aria-describedby="emailHelp" placeholder="Enter password"
+	    name="password">
   		</div>
   		
   		<div class="container text-center">
