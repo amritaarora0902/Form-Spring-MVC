@@ -10,7 +10,8 @@
 <title>Inserted Data!</title>
 </head>
 <body>
-	<h1>Welcome, ${name }</h1>
-	<h1>Your email address is ${email }</h1>
+	${Header }
+	<h1>Welcome, ${user.name }</h1>
+	<h1>Your email address is ${user.email }</h1>
 </body>
 </html>
